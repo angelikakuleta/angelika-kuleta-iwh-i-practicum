@@ -31,6 +31,26 @@ h1 {
 }
 
 .nav {
+    margin: 1rem;
+}
+
+.crm-table {
+    margin: 1rem;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+.crm-table th, .crm-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.pink-header {
+    background-color: pink;
+}
+
+.form-nav {
     max-width: 768px;
     margin: 2rem auto;
 }
