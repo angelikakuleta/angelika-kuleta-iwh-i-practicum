@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        title Update contact info
+        link(rel="stylesheet", href="/css/style.css")
+    body       
+        .form-wrapper
+            form(method="POST")
+                label(for="author") Author
+                input(type="text" name="author" required)
+                label(for="rating") Rating
+                input(type="number" min=1 max=5 name="rating" required)
+                label(for="reviewText") Review Text
+                textarea(name="reviewText")
+                input(type="submit" value="Submit")
+        p.nav
+            a(href='/') Return to the homepage
